@@ -22,7 +22,7 @@ const page = () => {
       </div>
       <div className="relative w-full h-screen flex flex-col items-center justify-center">
         <div
-          className="absolute flex flex-col items-center text-center top-[60%] left-1/2 
+          className="absolute flex flex-col items-center text-center top-[70%] left-1/2 
     -translate-x-1/2 -translate-y-1/2"
         >
           <h1 className="font-bold text-9xl text-accent">CodeBucks</h1>
