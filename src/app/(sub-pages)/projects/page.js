@@ -23,8 +23,7 @@ export default function Home() {
         size="100vw"
         alt="Next.js Portfolio website's about page"
       />
-      <div
-        className="flex items-center justify-center fixed  top-16  lg:top-20 -translate-x-1/2 lg:translate-x-0 -z-10 left-1/2 lg:-left-24 h-screen" >
+      <div className="flex items-center justify-center fixed  top-16  lg:top-20 -translate-x-1/2 lg:translate-x-0 -z-10 left-1/2 lg:-left-16 h-screen">
         <RendeModel>
           <Staff />
         </RendeModel>

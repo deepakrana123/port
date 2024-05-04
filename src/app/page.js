@@ -1,11 +1,9 @@
 "use client"
 import Image from "next/image";
 import bg from "../../public/background/home-background.png";
-import RendeModel from "./components/RendeModel";
-import { Wizard } from "./components/models/Wizard";
-import Naviagtion from "./components/navigation";
-import ProjectList from "./components/projects";
-import { projectsData } from "./data";
+import RendeModel from "@/components/RendeModel";
+import { Wizard } from "@/components/models/Wizard";
+import Naviagtion from "@/components/navigation";
 
 export default function Home() {
   return (
@@ -21,7 +19,6 @@ export default function Home() {
           <Wizard/>
           </RendeModel>
       </div>
-      {/* <ProjectList projects={projectsData}/> */}
     </main>
   );
 }
