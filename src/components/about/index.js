@@ -15,7 +15,7 @@ const ItemLayout = ({ children, className }) => {
 };
 const AboutDeatils = () => {
   return (
-    <section className="py-20 w-full">
+    <section className="py-10 w-full">
       <div className="grid grid-cols-12 gap-8 w-full">
         <ItemLayout className="col-span-8 row-span-2 flex-col items-start">
           <h2 className="text-2xl text-left w-full capitalize">
@@ -41,13 +41,38 @@ const AboutDeatils = () => {
             <sub className="font-semibold text-base">year of experiencess</sub>
           </p>
         </ItemLayout>
-        <ItemLayout className="col-span-6 !p-0">
+        <ItemLayout className="col-span-4 !p-0">
           <img
             alt="github"
             loading="lazy"
             className="w-full h-auto"
-            src="https://github-readme-stats.vercel.app/api?username=deepakrana123&show_icons=true&theme=radical"
+            src="https://github-readme-stats.vercel.app/api/top-langs/?username=deepakrana123&show_icons=false&theme=transparent&hide_border=true&title_color=FEFE58&text_color=FFFFFF&icon_color=FEFE58&text_bold=false"
           />
+        </ItemLayout>
+        <ItemLayout className="col-span-8 !p-0">
+          <img
+            alt="github"
+            loading="lazy"
+            className="w-full h-auto"
+            src="https://github-readme-stats.vercel.app/api?username=deepakrana123&show_icons=false&theme=transparent&hide_border=true&title_color=FEFE58&text_color=FFFFFF&icon_color=FEFE58&text_bold=false"
+          />
+        </ItemLayout>
+        <ItemLayout className="col-span-full !p-0">
+          <img
+            alt="github"
+            loading="lazy"
+            className="w-full h-auto"
+            src="https://skillicons.dev/icons?i=js,html,css,wasm,nodejs,figma,react,aws,vue,angular,git,firebase,npm,nextjs,netlify,d3,docker,github,html,js,jquery,threejs,supabase,sass,redux,replit,postgres,graphql,mysql,kubernetes,linux,mongodb,tailwind,yarn,vite,vscodess)"
+          />
+        </ItemLayout>
+        <ItemLayout className="col-span-6 !p-0">
+            <img
+              src="https://github-readme-streak-stats.herokuapp.com?user=deepakrana123&theme=transparent&hide_border=true&border_radius=&border=E5EB1B"
+              alt="GitHub Streak"
+              loading="lazy"
+              className="w-full h-auto"
+            />
+          
         </ItemLayout>
       </div>
     </section>
