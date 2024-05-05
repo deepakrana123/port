@@ -6,7 +6,10 @@ import React, { Suspense } from 'react'
 
 const RendeModel = ({children , className}) => {
   return (
-    <Canvas className={clsx("w-screen h-screen -z-10 relative ",className)}>
+    <Canvas
+     className={clsx("w-screen h-screen -z-10 relative ",className)}
+     shadows={false}
+     dpr={[1,2]}>
         <Suspense fallback={null}>
              {children}
         </Suspense>
